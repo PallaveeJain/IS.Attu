@@ -1,0 +1,23 @@
+.Emoji{
+    font-size: 65px;
+    align-content: center;
+    color: gray;
+}
+
+.heading{
+    text-align: center;
+}
+
+.effect{
+    transition-duration: 0.5;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+.effect:hover{
+    transform: scale(1.4);
+    filter: none;
+}
+
+    
